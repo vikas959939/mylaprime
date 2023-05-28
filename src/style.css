@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Barlow+Condensed&family=Martian+Mono:wght@300&family=Roboto+Condensed:ital@1&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;1,500&family=Ubuntu&display=swap');
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+.hourtd {
+  min-width: 85px;
+  height: 80px;
+}
+
+.date_width {
+  min-width: 120px;
+}
+
+.selecttd {
+  height: 60px;
+}
+
+.selecttd:hover {
+  background-color: rgb(251, 251, 251);
+}
+
+.baytop {
+  height: 80px;
+  width: 50px;
+}
+
+.bayssection {
+  height: 60px;
+}
+
+/* table{
+    display: block;
+    overflow-x:auto ;
+    white-space: nowrap;
+  }
+  
+  table tbody{
+    display: flex;
+    width: 100%;
+  } */
+
+.pendingTd {
+  background-image: url('./pages/app/kanban/truck2.jpg');
+  background-size: cover;
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.fh {
+  font-size: 7px;
+  font-weight: 50px;
+  font-weight: bold;
+}
+
+.pendingTds {
+  background-image: url('./pages/app/kanban/truck2.jpg');
+  background-size: cover;
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.login-bg {
+  background-image: url('./assets/images/auth/delivery-image.jpg');
+}
+
+@media screen and (max-width: 450px) {
+  .baysrow {
+
+    width: 20px;
+    padding: 0%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .timesrow {
+
+    width: 210px;
+    margin-left: 30px;
+    padding: 0%;
+  }
+}
+
+/* @media screen and (min-width: 401px) {
+    .baysrow {
+      
+      width: 20px;
+      padding: 0%;
+    }
+  }
+
+  @media screen and (min-width: 401px) {
+    .timesrow {
+      
+      width: 90%;
+      margin-left: 30px;
+      padding: 0%;
+    }
+  } */
+
+  .header-color{
+    background-color: 'rgb(179 235 232)';
+  }
+
+  .heading {
+    margin: 2rem;
+    font-weight: 600;
+  }
+
+  .setuptable_width{
+    width: 130px;
+  }
